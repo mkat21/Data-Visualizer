@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-pzjw8f+ua7Kw1TIq0v8FqFjcJ6pajs/rfdfs3SO+kD5tr5u8fo5ooq5qy5dz5i5E9l" crossorigin="anonymous">
+    <title>Time Series Visualization</title>
+</head>
+<body>
+    <div class="container mt-5">
+        <h1>Time Series Visualization</h1>
+        <img src="{{ url_for('static', filename='plot.png') }}" alt="Time Series Plot" class="img-fluid">
+    </div>
+</body>
+</html>
